@@ -1,0 +1,26 @@
+<extentreports>
+    <configuration>
+
+        <!-- UI Theme: standard / dark -->
+        <theme>standard</theme>
+
+        <!-- Encoding -->
+        <encoding>utf-8</encoding>
+
+        <!-- Document title -->
+        <documentTitle>Cermati Automation Report for Recuruitment Test - Baskoro</documentTitle>
+
+        <!-- Main header of the report -->
+        <reportName>Registration Test Suite</reportName>
+
+        <!-- Timeline chart on top -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Timestamp format -->
+        <timeStampFormat>dd/MM/yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Protocol for resources -->
+        <protocol>https</protocol>
+
+    </configuration>
+</extentreports>
