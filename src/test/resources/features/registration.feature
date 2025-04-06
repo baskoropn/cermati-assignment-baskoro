@@ -59,6 +59,7 @@ Feature: Registration Feature
     Then Daftar button should be disabled
     And I should see error message "Format email tidak valid"
 
+
   Scenario: [POSITIVE] As a user, I want to be able to click TnC Syarat dan Ketentuan
     Given I am on the registration page
     Then All registration fields should be there

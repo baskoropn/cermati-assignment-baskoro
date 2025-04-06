@@ -36,6 +36,19 @@ It includes both positive and negative scenarios with validation checks and stru
 ## Reports
 Extent report will be generated at: target/test-reports/cucumber-reports-with-extent.html
 
+## List of Scenario
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling invalid phone, invalid email, invalid first name, and invalid last name
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling valid phone, invalid email, invalid first name, and invalid last name
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling valid phone, valid email, invalid first name, and invalid last name
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling valid phone, valid email, valid first name, and invalid last name
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with all valid but name characters count more than 100,
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling invalid phone (not starting with 08), valid email, valid first name, and valid last name
+- Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling valid phone, invalid email (without using @), valid first name, and valid last name
+- Scenario: [POSITIVE] As a user, I want to be able to click TnC Syarat dan Ketentuan
+- Scenario: [POSITIVE] As a user, I want to be able to click TnC Kebijakan Privasi
+- Scenario: [POSITIVE] As a user, I want to register in Cermati page
+
+
 ### Disclaimer
 
 This project is for assignment only
