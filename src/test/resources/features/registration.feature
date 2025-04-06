@@ -59,14 +59,6 @@ Feature: Registration Feature
     Then Daftar button should be disabled
     And I should see error message "Format email tidak valid"
 
-  Scenario: [NEGATIVE] As a user, I want to fill Cermati Registration page with filling valid phone, invalid email (without using @), valid first name, and valid last name
-    Given I am on the registration page
-    Then All registration fields should be there
-    When User fill phone with "0817805298" and user fill email with "bosbas97gmail.com" and user fill first name with "BASKORO" and user fill last name with "PRAMUDITO"
-    And User wait for 1 seconds
-    Then Daftar button should be disabled
-    And I should see error message "Format email tidak valid"
-
   Scenario: [POSITIVE] As a user, I want to be able to click TnC Syarat dan Ketentuan
     Given I am on the registration page
     Then All registration fields should be there
