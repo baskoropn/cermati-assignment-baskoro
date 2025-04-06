@@ -4,8 +4,6 @@ This project automates the testing of the **Cermati Registration Page** using Se
 
 It includes both positive and negative scenarios with validation checks and structured reporting.
 
----
-
 ## Stacks
 
 | Tool            | Description                                |
@@ -16,8 +14,6 @@ It includes both positive and negative scenarios with validation checks and stru
 | JUnit            | Test runner                                |
 | Maven            | Dependency & build management              |
 | ExtentReports    | Custom test reporting                      |
-
----
 
 ## How to Run
 
@@ -48,9 +44,7 @@ Extent report will be generated at: target/test-reports/cucumber-reports-with-ex
 - Scenario: [POSITIVE] As a user, I want to be able to click TnC Kebijakan Privasi
 - Scenario: [POSITIVE] As a user, I want to register in Cermati page
 
-
 ### Disclaimer
-
 This project is for assignment only
 
 ### Author
